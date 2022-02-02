@@ -21,4 +21,14 @@ public class BigClass {
         this.text = text;
     }
 
+    public void setNumber(int number) {
+        if (number >= 0) {
+            this.number = number;
+        }
+        else System.out.println("Negative numbers are not allowed!");
+    }
+
+    public int getNumber() {
+        return number;
+    }
 }
