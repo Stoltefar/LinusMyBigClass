@@ -45,4 +45,8 @@ public class BigClass {
     public void textToUppercase() {
         this.text = text.toUpperCase();
     }
+
+    public void setTextToNull() {
+        this.text = null;
+    }
 }
