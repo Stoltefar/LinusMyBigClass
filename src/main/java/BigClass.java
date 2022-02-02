@@ -56,4 +56,12 @@ public class BigClass {
         }
         else System.out.println("You are not allowed to add negative numbers!");
     }
+
+    @Override
+    public String toString() {
+        return "BigClass{" +
+                "number=" + number +
+                ", text='" + text + '\'' +
+                '}';
+    }
 }
