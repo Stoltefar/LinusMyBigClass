@@ -49,4 +49,11 @@ public class BigClass {
     public void setTextToNull() {
         this.text = null;
     }
+
+    public void addToNumber(int n) {
+        if (n>=0) {
+            this.number += n;
+        }
+        else System.out.println("You are not allowed to add negative numbers!");
+    }
 }
