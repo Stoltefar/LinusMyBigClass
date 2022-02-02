@@ -1,3 +1,5 @@
+import java.util.Locale;
+
 public class BigClass {
 
 
@@ -37,6 +39,10 @@ public class BigClass {
     }
 
     public String getText() {
-        return this.text
+        return this.text;
+    }
+
+    public void textToUppercase() {
+        this.text = text.toUpperCase();
     }
 }
